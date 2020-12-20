@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BE1451</color>
+    <color name="colorPrimaryDark">#7C092B</color>
+    <color name="colorAccent">#F8F9FB</color>
+
+    <!--    Custom Calender Colors-->
+    <color name="white">#FFF</color>
+    <color name="grey1">#E0E0E0</color>
+    <color name="grey2">#9E9E9E</color>
+    <color name="grey3">#444444</color>
+
+    <!--    Gradient Colors-->
+
+    <!--    Scrapped Colors-->
+    <color name="dribblePink">#E94D88</color>
+    <color name="dribblePinkLight">#F998BD</color>
+    <color name="shimmerColor">#dddddd</color>
+</resources>
