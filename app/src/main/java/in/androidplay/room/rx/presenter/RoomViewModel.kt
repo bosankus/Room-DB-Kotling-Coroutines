@@ -6,7 +6,9 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 /**
  * Created by Androidplay
@@ -14,7 +16,8 @@ import kotlinx.coroutines.launch
  * On: 19/Dec/2020
  * Email: ankush@androidplay.in
  */
-class RoomViewModel @ViewModelInject constructor(private val dataSource: UserRepository) :
+@HiltViewModel
+class RoomViewModel @Inject constructor(private val dataSource: UserRepository) :
     ViewModel() {
 
     val allUsers = dataSource.getAllUsers()

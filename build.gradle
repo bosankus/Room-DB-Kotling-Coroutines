@@ -9,7 +9,7 @@ buildscript {
     ext.hilt_jetpack_version = "1.0.0-alpha03"
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.3'
@@ -23,7 +23,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
