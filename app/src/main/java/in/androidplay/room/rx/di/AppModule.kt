@@ -1,8 +1,8 @@
-package `in`.androidplay.room.rx
+package `in`.androidplay.room.rx.di
 
-import `in`.androidplay.room.rx.persistance.UserDao
-import `in`.androidplay.room.rx.persistance.UserDatabase
-import `in`.androidplay.room.rx.view.UserAdapter
+import `in`.androidplay.room.rx.data.UserDao
+import `in`.androidplay.room.rx.data.UserDatabase
+import `in`.androidplay.room.rx.presentation.view.UserAdapter
 import android.content.Context
 import androidx.room.Room
 import dagger.Module
@@ -21,7 +21,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class Injection {
+object AppModule {
 
     @Singleton
     @Provides

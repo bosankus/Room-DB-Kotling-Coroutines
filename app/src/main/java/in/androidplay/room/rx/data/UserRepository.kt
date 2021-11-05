@@ -1,6 +1,5 @@
-package `in`.androidplay.room.rx.persistance
+package `in`.androidplay.room.rx.data
 
-import androidx.lifecycle.LiveData
 import javax.inject.Inject
 
 /**

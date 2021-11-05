@@ -1,7 +1,7 @@
-package `in`.androidplay.room.rx.view
+package `in`.androidplay.room.rx.presentation.view
 
 import `in`.androidplay.room.rx.databinding.LayoutUserListBinding
-import `in`.androidplay.room.rx.persistance.User
+import `in`.androidplay.room.rx.data.User
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter

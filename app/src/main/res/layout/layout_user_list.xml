@@ -6,7 +6,7 @@
 
         <variable
             name="user"
-            type="in.androidplay.room.rx.persistance.User" />
+            type="in.androidplay.room.rx.data.User" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -1,4 +1,4 @@
-package `in`.androidplay.room.rx.persistance
+package `in`.androidplay.room.rx.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

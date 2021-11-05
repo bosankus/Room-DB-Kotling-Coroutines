@@ -1,9 +1,7 @@
-package `in`.androidplay.room.rx.presenter
+package `in`.androidplay.room.rx.presentation
 
-import `in`.androidplay.room.rx.persistance.User
-import `in`.androidplay.room.rx.persistance.UserRepository
-import androidx.hilt.lifecycle.ViewModelInject
-import androidx.lifecycle.MutableLiveData
+import `in`.androidplay.room.rx.data.User
+import `in`.androidplay.room.rx.data.UserRepository
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel

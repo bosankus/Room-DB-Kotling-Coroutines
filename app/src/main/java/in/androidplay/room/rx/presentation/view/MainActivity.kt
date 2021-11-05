@@ -1,10 +1,10 @@
-package `in`.androidplay.room.rx.view
+package `in`.androidplay.room.rx.presentation.view
 
 import `in`.androidplay.room.rx.databinding.ActivityMainBinding
-import `in`.androidplay.room.rx.hideKeyboard
-import `in`.androidplay.room.rx.persistance.User
-import `in`.androidplay.room.rx.presenter.RoomViewModel
-import `in`.androidplay.room.rx.showToast
+import `in`.androidplay.room.rx.common.hideKeyboard
+import `in`.androidplay.room.rx.data.User
+import `in`.androidplay.room.rx.presentation.RoomViewModel
+import `in`.androidplay.room.rx.common.showToast
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
