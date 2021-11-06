@@ -24,16 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setUi()
         setClickListeners()
-    }
-
-    private fun setUi() {
-        // enable white status bar with black icons
-        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-        window.statusBarColor = Color.WHITE
-        window.navigationBarColor = Color.WHITE
-        binding.layoutUserDetails.rvUserList.adapter = adapter
     }
 
     private fun setClickListeners() {

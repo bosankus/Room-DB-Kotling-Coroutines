@@ -64,19 +64,13 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSaveUser"
-        style="?android:attr/borderlessButtonStyle"
+        style="@style/WideButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/padding_16dp"
-        android:background="@drawable/bg_rounded"
-        android:backgroundTint="@color/dribblePink"
-        android:fontFamily="@font/calibre_bold"
         android:text="@string/save"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="@dimen/text_18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/clUserDetailsInputLayout" />
